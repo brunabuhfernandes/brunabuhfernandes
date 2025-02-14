@@ -1,0 +1,46 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyPIt4QGci3w7n0jE9q+loDj",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/brunabuhfernandes/brunabuhfernandes/blob/main/Reescreva%20de%20tr%C3%A1s%20pra%20frente!\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "TPXYnaDxzF2N"
+      },
+      "outputs": [],
+      "source": [
+        "# Função para inverter a palavra\n",
+        "def inverter_palavra(palavra):\n",
+        "    return palavra[::-1]\n",
+        "\n",
+        "palavra = input(\"Digite uma palavra: \")\n",
+        "print(\"Palavra invertida:\", inverter_palavra(palavra))"
+      ]
+    }
+  ]
+}
